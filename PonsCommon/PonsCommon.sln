@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PonsUtil", "PonsUtil\PonsUtil.csproj", "{63E9AC82-64AD-41FC-B2D4-B7242B79834A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PonsUtilTests", "PonsUtilTests\PonsUtilTests.csproj", "{128A2243-E8DC-42EF-AD33-162D8E74B9E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{63E9AC82-64AD-41FC-B2D4-B7242B79834A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63E9AC82-64AD-41FC-B2D4-B7242B79834A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63E9AC82-64AD-41FC-B2D4-B7242B79834A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128A2243-E8DC-42EF-AD33-162D8E74B9E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128A2243-E8DC-42EF-AD33-162D8E74B9E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128A2243-E8DC-42EF-AD33-162D8E74B9E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128A2243-E8DC-42EF-AD33-162D8E74B9E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

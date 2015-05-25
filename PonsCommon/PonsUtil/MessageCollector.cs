@@ -64,7 +64,7 @@ namespace PonsUtil
         }
 
         /// <summary>
-        /// Write down logs
+        /// Write d own logs
         /// </summary>
         /// <param name="type">Type</param>
         /// <param name="msg">Message</param>
