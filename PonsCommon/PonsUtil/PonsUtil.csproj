@@ -42,8 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EnumDescriptionExtensions.cs" />
     <Compile Include="MessageCollector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnixTime.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
