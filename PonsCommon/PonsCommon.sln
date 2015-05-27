@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PonsUtil", "PonsUtil\PonsUt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PonsUtilTests", "PonsUtilTests\PonsUtilTests.csproj", "{128A2243-E8DC-42EF-AD33-162D8E74B9E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pons.WindowsService", "Pons.WindowsService\Pons.WindowsService.csproj", "{BC343DC8-DBF3-4AA8-8312-7E067A74DC05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{128A2243-E8DC-42EF-AD33-162D8E74B9E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{128A2243-E8DC-42EF-AD33-162D8E74B9E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{128A2243-E8DC-42EF-AD33-162D8E74B9E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC343DC8-DBF3-4AA8-8312-7E067A74DC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC343DC8-DBF3-4AA8-8312-7E067A74DC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC343DC8-DBF3-4AA8-8312-7E067A74DC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC343DC8-DBF3-4AA8-8312-7E067A74DC05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
