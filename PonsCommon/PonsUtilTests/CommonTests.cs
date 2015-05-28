@@ -10,7 +10,8 @@ namespace PonsUtil.Tests
     [TestClass()]
     public class CommonTests
     {
-        List<string> list = new List<string> { "1", "2", "3" };
+        List<string> lista = new List<string> { "1", "2", "3" };
+        List<string> listb = new List<string> { "4", "5" };
         [TestMethod()]
         public void GetOracleInParameterWhereSqlTest()
         {
@@ -19,21 +20,21 @@ namespace PonsUtil.Tests
             string b = a;
             a = "123";
             Console.WriteLine(a + b);
-
-            List<string> listnew = new List<string>();
-            Change(list);
-            Console.WriteLine(listnew);
+            var listtemp = listb;
+            Change(lista);
+            Assert.AreNotSame(listtemp, lista);
 
             List<string> listref = new List<string>();
-            Change(list, ref listref);
-            Console.WriteLine(listref);
+            Change(lista, ref listref);
+            Assert.AreSame(listtemp, listref);
+
         }
 
         private void Change(List<string> list)
         {
             if (list.Count > 0)
             {
-                list = new List<string> { "4", "5" };
+                list = listb;
             }
         }
 
@@ -41,7 +42,7 @@ namespace PonsUtil.Tests
         {
             if (list.Count > 0)
             {
-                newlist = new List<string> { "4", "5" };
+                newlist = listb;
             }
         }
     }
