@@ -89,6 +89,7 @@
   <ItemGroup>
     <Compile Include="Common.cs" />
     <Compile Include="DataConvert.cs" />
+    <Compile Include="DateTimeHelper.cs" />
     <Compile Include="EnumDescriptionExtensions.cs" />
     <Compile Include="Excel\Excel.cs" />
     <Compile Include="Excel\ExcelHelper.cs" />
