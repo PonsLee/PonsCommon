@@ -11,7 +11,8 @@ namespace Oracle.Application.Blocks.Data
     /// common uses of OracleClient.
     /// </summary>
     public sealed class OracleHelper
-    {#region private utility methods & constructors
+    {
+        #region private utility methods & constructors
 
         //Since this class provides only static methods, make the default constructor private to prevent 
         //instances from being created with "new OracleHelper()".

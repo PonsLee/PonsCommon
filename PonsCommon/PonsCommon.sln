@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PonsUtilTests", "PonsUtilTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pons.WindowsService", "Pons.WindowsService\Pons.WindowsService.csproj", "{BC343DC8-DBF3-4AA8-8312-7E067A74DC05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oracle.Application.Blocks.Data", "Oracle.Application.Blocks.Data\Oracle.Application.Blocks.Data.csproj", "{BDD78A22-C4A9-487E-8FA7-F34B0FC9CFB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ado.Net", "Ado.Net\Ado.Net.csproj", "{0A5D90B2-6A7D-4631-B807-389B01F1E72F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{BC343DC8-DBF3-4AA8-8312-7E067A74DC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC343DC8-DBF3-4AA8-8312-7E067A74DC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC343DC8-DBF3-4AA8-8312-7E067A74DC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD78A22-C4A9-487E-8FA7-F34B0FC9CFB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD78A22-C4A9-487E-8FA7-F34B0FC9CFB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD78A22-C4A9-487E-8FA7-F34B0FC9CFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD78A22-C4A9-487E-8FA7-F34B0FC9CFB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A5D90B2-6A7D-4631-B807-389B01F1E72F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A5D90B2-6A7D-4631-B807-389B01F1E72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A5D90B2-6A7D-4631-B807-389B01F1E72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A5D90B2-6A7D-4631-B807-389B01F1E72F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
