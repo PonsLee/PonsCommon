@@ -50,6 +50,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="China\ChsSpellTests.cs" />
     <Compile Include="CommonTests.cs" />
     <Compile Include="MessageCollectorTests.cs" />
     <Compile Include="OpenXMLHelperTests.cs" />

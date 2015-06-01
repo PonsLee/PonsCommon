@@ -89,6 +89,7 @@
   <ItemGroup>
     <Compile Include="ArrayUtils.cs" />
     <Compile Include="Assert.cs" />
+    <Compile Include="China\ChsSpell.cs" />
     <Compile Include="Common.cs" />
     <Compile Include="DataConvert.cs" />
     <Compile Include="DateTimeHelper.cs" />
