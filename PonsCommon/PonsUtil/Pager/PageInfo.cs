@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PonsUtil
+namespace PonsUtil.Pager
 {
     public class PageInfo
     {

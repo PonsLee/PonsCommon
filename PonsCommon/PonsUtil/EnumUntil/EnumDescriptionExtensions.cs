@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PonsUtil
+namespace PonsUtil.EnumUntil
 {
     public static class EnumDescriptionExtensions
     {

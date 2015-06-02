@@ -84,6 +84,10 @@
       <Project>{BDD78A22-C4A9-487E-8FA7-F34B0FC9CFB7}</Project>
       <Name>Oracle.Application.Blocks.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Pons.Model\Pons.Model.csproj">
+      <Project>{0B98C9B0-9D9D-4F2B-8910-A28F423A21F7}</Project>
+      <Name>Pons.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PonsUtil\PonsUtil.csproj">
       <Project>{63E9AC82-64AD-41FC-B2D4-B7242B79834A}</Project>
       <Name>PonsUtil</Name>

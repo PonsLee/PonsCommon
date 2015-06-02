@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using Ado.Net.Context;
 using Microsoft.ApplicationBlocks.Data;
 using PonsUtil;
+using PonsUtil.Pager;
 
 namespace Ado.Net.DbBase
 {

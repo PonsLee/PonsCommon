@@ -12,6 +12,7 @@ using Oracle.Application.Blocks.Data;
 using Oracle.DataAccess.Client;
 using Oracle.DataAccess.Types;
 using PonsUtil;
+using PonsUtil.Pager;
 
 namespace Ado.Net.DbBase
 {
