@@ -8,11 +8,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
 using Newtonsoft.Json;
+using PonsUtil.Json;
 
-namespace PonsUtil
+namespace PonsUtil.Json
 {
     public class JsonHelper
     {
+        /// <summary>
+        /// 转换为动态类型
+        /// </summary>
+        /// <param name="json"></param>
+        /// <returns></returns>
+        public static dynamic ConvertJsonToDynamic(string json)
+        {
+            var serializer = new JavaScriptSerializer();
+            serializer.RegisterConverters(new[] { new DynamicJsonConverter() });
+            return serializer.Deserialize(json, typeof(object));
+        }
+
         /// <summary>
         /// 使用JSON.NET 转换对象到JSON字符串
         /// </summary>

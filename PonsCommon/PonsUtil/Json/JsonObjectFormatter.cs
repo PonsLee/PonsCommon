@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace PonsUtil
+namespace PonsUtil.Json
 {
     /// <summary>
     /// dump the content of an object using JSON format.

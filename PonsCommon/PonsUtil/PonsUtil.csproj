@@ -89,7 +89,6 @@
   <ItemGroup>
     <Compile Include="ArrayUtils.cs" />
     <Compile Include="Assert.cs" />
-    <Compile Include="Cache\ICacheProvider.cs" />
     <Compile Include="China\ChsSpell.cs" />
     <Compile Include="ClsExtender\DataRowEx.cs" />
     <Compile Include="ClsExtender\DataSetEx.cs" />
@@ -105,8 +104,9 @@
     <Compile Include="Export\ExportModel.cs" />
     <Compile Include="FileIO.cs" />
     <Compile Include="FtpControl.cs" />
-    <Compile Include="JsonHelper.cs" />
-    <Compile Include="JsonObjectFormatter.cs" />
+    <Compile Include="Json\DynamicJsonConverter.cs" />
+    <Compile Include="Json\JsonHelper.cs" />
+    <Compile Include="Json\JsonObjectFormatter.cs" />
     <Compile Include="MefDI\MefHelper.cs" />
     <Compile Include="MefDI\MefServiceLocator.cs" />
     <Compile Include="MefDI\MefServiceLocatorBase.cs" />
@@ -127,14 +127,15 @@
     <Compile Include="SerializeHelper.cs" />
     <Compile Include="StringUtil.cs" />
     <Compile Include="UnixTime.cs" />
+    <Compile Include="WebTool\UrlDecoder.cs" />
+    <Compile Include="WebTool\UrlEncoder.cs" />
+    <Compile Include="WebTool\WebUtils.cs" />
     <Compile Include="ZipUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Caching\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
