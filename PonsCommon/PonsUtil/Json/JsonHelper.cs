@@ -7,6 +7,7 @@ using System.Runtime.Serialization.Json;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
+using Chsword;
 using Newtonsoft.Json;
 using PonsUtil.Json;
 
@@ -185,6 +186,11 @@ namespace PonsUtil.Json
             var javaScriptSerializer = new JavaScriptSerializer();
             var value = javaScriptSerializer.Deserialize<T>(str);
             return value;
+        }
+
+        public static dynamic JsonToDynamic(string str)
+        {
+            return new JDynamic(str);
         }
     }
 }
