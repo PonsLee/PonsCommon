@@ -22,6 +22,7 @@ namespace PonsUtil.Xml.Tests
             Root root = new Root { Class3 = c3, List = new List<Class2> { c1, c2 } };
 
             string xmls = XmlHelper.XmlSerialize(root, Encoding.UTF8);
+            Root r = XmlHelper.XmlDeserialize<Root>(xmls, Encoding.UTF8);
 
             Gift g1 = new Gift { Level = 1, GiftName = "足球" };
             Gift g2 = new Gift { Level = 3, GiftName = "羽毛球" };
@@ -40,7 +41,7 @@ namespace PonsUtil.Xml.Tests
                     new Gift { Level = 3, GiftName = "羽毛球" },
                     new Gift { Level = 1, GiftName = "足球" }
                 }
-            }; 
+            };
 
             string xml = XmlHelper.XmlSerialize(people, Encoding.UTF8);
 

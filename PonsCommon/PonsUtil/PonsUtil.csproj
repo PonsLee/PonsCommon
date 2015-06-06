@@ -69,6 +69,12 @@
     <Reference Include="NPOI.Util">
       <HintPath>..\Lab\NPOI\NPOI.Util.dll</HintPath>
     </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\Lab\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Redis">
+      <HintPath>..\Lab\ServiceStack.Redis.dll</HintPath>
+    </Reference>
     <Reference Include="SevenZipSharp">
       <HintPath>..\packages\SevenZipSharp.0.64\lib\SevenZipSharp.dll</HintPath>
     </Reference>
@@ -93,6 +99,12 @@
   <ItemGroup>
     <Compile Include="ArrayUtils.cs" />
     <Compile Include="Assert.cs" />
+    <Compile Include="Caching\BaseCacheStrategy.cs" />
+    <Compile Include="Caching\CachingManager.cs" />
+    <Compile Include="Caching\HttpRuntimeCacheStategy.cs" />
+    <Compile Include="Caching\ICacheStrategy.cs" />
+    <Compile Include="Caching\RedisCacheStategy.cs" />
+    <Compile Include="Caching\RedisConfig.cs" />
     <Compile Include="China\ChsSpell.cs" />
     <Compile Include="ClsExtender\DataRowEx.cs" />
     <Compile Include="ClsExtender\DataSetEx.cs" />
