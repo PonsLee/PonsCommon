@@ -44,6 +44,9 @@
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>..\packages\ICSharpCode.SharpZipLib.dll.0.85.4.369\lib\net20\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\Lab\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="log4net">
       <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
     </Reference>
@@ -122,6 +125,7 @@
     <Compile Include="Excel\ExcelHelper.cs" />
     <Compile Include="Excel\ExcelWriter.cs" />
     <Compile Include="Export\ExportModel.cs" />
+    <Compile Include="Export\HtmlToPdfBuilder.cs" />
     <Compile Include="FileIO.cs" />
     <Compile Include="FtpControl.cs" />
     <Compile Include="Json\DynamicJsonConverter.cs" />
