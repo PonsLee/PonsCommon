@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ado.Net", "Ado.Net\Ado.Net.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pons.Model", "Pons.Model\Pons.Model.csproj", "{0B98C9B0-9D9D-4F2B-8910-A28F423A21F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pons.IocContainer", "Pons.IocContainer\Pons.IocContainer.csproj", "{98F324AC-4F84-4841-AEBE-9A1BB665319F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{0B98C9B0-9D9D-4F2B-8910-A28F423A21F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B98C9B0-9D9D-4F2B-8910-A28F423A21F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B98C9B0-9D9D-4F2B-8910-A28F423A21F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F324AC-4F84-4841-AEBE-9A1BB665319F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F324AC-4F84-4841-AEBE-9A1BB665319F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F324AC-4F84-4841-AEBE-9A1BB665319F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F324AC-4F84-4841-AEBE-9A1BB665319F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
