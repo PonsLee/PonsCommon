@@ -117,6 +117,7 @@
     <Compile Include="ClsExtender\DataSetEx.cs" />
     <Compile Include="ClsExtender\DataTableEx.cs" />
     <Compile Include="Common.cs" />
+    <Compile Include="ConfigUtil\ConfigurationHelper.cs" />
     <Compile Include="DataConvert.cs" />
     <Compile Include="DateTimeHelper.cs" />
     <Compile Include="EnumUntil\EnumDescriptionExtensions.cs" />
