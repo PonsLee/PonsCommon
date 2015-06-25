@@ -155,6 +155,7 @@
     <Compile Include="SerializeHelper.cs" />
     <Compile Include="StringUtil.cs" />
     <Compile Include="UnixTime.cs" />
+    <Compile Include="VerifyHelper.cs" />
     <Compile Include="WebTool\UrlDecoder.cs" />
     <Compile Include="WebTool\UrlEncoder.cs" />
     <Compile Include="WebTool\WebUtils.cs" />
