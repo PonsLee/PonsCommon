@@ -5,7 +5,7 @@ using System.Data;
 
 namespace PonsUtil.Converter
 {
-    public static class VanclConverter
+    public static class PonsConverter
     {
         public static T ConvertModel<T, M>(M originalModel) where T : new()
         {
